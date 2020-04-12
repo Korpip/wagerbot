@@ -1,7 +1,7 @@
 #wagerbot.py made using https://www.richwerks.com/index.php/2019/beginner-twitch-chatbot-using-python/
 from twitchio.ext import commands
 import random
-from ThePipsBotTwitch import *
+from config import *
  
 bot = commands.Bot(
     irc_token=TMI_TOKEN,
